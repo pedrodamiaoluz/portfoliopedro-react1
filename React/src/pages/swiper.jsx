@@ -12,6 +12,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+
 export default () => {
   return (
     <Swiper
@@ -33,6 +34,7 @@ export default () => {
       <SwiperSlide>
         <RiJavascriptLine />
       </SwiperSlide>
+
     </Swiper>
   );
 };

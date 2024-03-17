@@ -12,7 +12,7 @@ function App() {
       <Header />
       <TopoSite />
       <SobreMim />
-      <MinhasHabilidades />
+      <MinhasHabilidades /> 
     </>
   )
 }

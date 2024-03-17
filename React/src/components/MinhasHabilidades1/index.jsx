@@ -1,4 +1,5 @@
 import Swiper from "../../pages/swiper";
+import MeuPortifolio from "../MeuPortifolio";
 import * as S from "./style";
 
 
@@ -12,7 +13,8 @@ export default function MinhasHabilidades(){
                 <Swiper>
                      <div className="swiper-pagination"></div>
                 </Swiper>
-            </S.iconHab>        
+            </S.iconHab>  
+            <MeuPortifolio />      
        </S.Container>
     )
 }
