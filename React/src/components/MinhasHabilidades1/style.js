@@ -4,9 +4,11 @@ export const Container = styled.div`
      background-color: transparent;
      margin: 40px 0;
      display: flex;
+     flex-direction: column;
      justify-content: space-between;
-     
-     
+     justify-items: center;
+     align-items: center;
+     gap: 90px;
 `
 
 export const H1 = styled.h1`

@@ -25,18 +25,22 @@ export default function MeuPortifolio(){
 
     return(
        <S.MeuPortifolio>
+         <S.H1>Meu <strong>Portifolio</strong></S.H1>
       <Swiper
-         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-         autoplay={{delay: 4000}}
+         modules={[Navigation, Pagination, Scrollbar, A11y]}
+         
          spaceBetween={50}
          slidesPerView={1}
+         navigation
          pagination={{ clickable: true}}
+         scrollbar={{ draggable: true }}
          onSwiper={(swiper) => console.log(swiper)}
+         onSlideChange={() => console.log('slide change')}
       >
         {ArraySlide.map((item) => {
              return(
                 <SwiperSlide>
-                    <img src={item.url} />
+                    <S.Img src={item.url} />
                 </SwiperSlide>
              );
         })}
