@@ -20,7 +20,27 @@ export const H1 = styled.h1`
 `
 
 export const Img = styled.img`
+   background-color: #25242473;
    width: 80%;
    height: 80vh;
-   padding: 0 20px;
+   border-radius: 15px;
+`
+
+export const P = styled.p`
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: 400;
+  color: #fff;
+`
+
+export const Link = styled.a`
+  font-size: 28px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+
+&:hover{
+   border-bottom: 5px solid #0e9094;
+   border-radius: 2px;
+}
 `

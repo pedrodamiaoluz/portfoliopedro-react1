@@ -2,19 +2,16 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-    height: 80vh;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
 ` 
 
 export const conteudo = styled.div`
     background-color: #25242473;
     color: #0e9094;
     border-radius: 30px;
-    padding: 60px 40px;
+    padding: 50px 40px;
 ` 
 export const h1 = styled.h1`
    text-align: center;
