@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const conteudo = styled.div`
     background-color: transparent;
+    height: 70vh;
     margin: 30px;
     padding: 20px 2%;
 `

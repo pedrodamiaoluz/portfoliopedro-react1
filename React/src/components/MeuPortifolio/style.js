@@ -27,7 +27,7 @@ export const Img = styled.img`
 `
 
 export const P = styled.p`
-  padding: 20px 0;
+  padding: 20px 2rem;
   font-size: 28px;
   font-weight: 400;
   color: #fff;

@@ -11,21 +11,24 @@ export default function MeuPortifolio(){
          id: 0,
          url: Images.proj1,
          labelAll: "Projeto Sobre as Redes Sociais",
-         Link: "Projeto 1",
+         Text: "Projeto 1",
+         link: "https://pedrodamiaoluz.github.io/Progeto-Social/",
       },
   
       {
        id: 1,
           url: Images.proj2,
           labelAll: "Projeto Sobre Calculadora de Gorjetas",
-          Link: "Projeto 2",
+          Text: "Projeto 2",
+          link: "https://pedrodamiaoluz.github.io/calculadoradegorjetas/",
       },
   
       {
          id: 2,
          url: Images.proj3,
          labelAll: "Projeto Sobre Mapa Clima",
-         Link: "Projeto 3",
+         Text: "Projeto 3",
+         link: "https://pedrodamiaoluz.github.io/maps-clima/",
       },
   
   ];
@@ -46,7 +49,7 @@ export default function MeuPortifolio(){
                 <SwiperSlide>
                     <S.Img src={item.url} />
                        <S.P>{item.labelAll}<br/><br/>
-                       <S.Link href="">{item.Link}</S.Link>
+                       <S.Link href={item.link} target="_blank">{item.Text}</S.Link>
                        </S.P>
                 </SwiperSlide>
              );
