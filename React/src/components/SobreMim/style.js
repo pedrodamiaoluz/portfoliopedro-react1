@@ -28,6 +28,10 @@ strong{
     color: #0e9094;
     font-weight: bold;
 }
+
+@media (max-width: 959px){
+      font-size: 18px;
+   }
 `
 
 export const p = styled.p`
@@ -35,6 +39,12 @@ export const p = styled.p`
     text-align: justify;
     padding: 10px 8rem;
     font-size: 18px;
+
+    @media (max-width: 959px){
+      width: 300px;
+      font-size: 16px;
+      padding: 20px 2%;
+   }
 `
 
 export const icons = styled.div`

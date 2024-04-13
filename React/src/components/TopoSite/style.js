@@ -6,24 +6,43 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @media (max-width: 959px){
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+   }
 ` 
 
 export const conteudo = styled.div`
-    background-color: #25242473;
+    background-color: #2b272746;
     color: #0e9094;
     border-radius: 30px;
     padding: 50px 40px;
+
+    @media (max-width: 959px){
+      margin-top: 50px;
+      padding: 20px 2%;
+   }
 ` 
 export const h1 = styled.h1`
    text-align: center;
    font-size: 50px;
    font-weight: 700;
+
+   @media (max-width: 959px){
+      font-size: 40px;
+   }
 `
 
 export const p = styled.p`
     text-align: center;
     line-height: 20px;
     font-size: 40px;
+
+    @media (max-width: 959px){
+      font-size: 25px;
+   }
 `
 
 export const imagempedro = styled.img`
@@ -38,5 +57,8 @@ export const imagempedro = styled.img`
     100%{
         top: 30px;
     }
+
 }
+
+
 `

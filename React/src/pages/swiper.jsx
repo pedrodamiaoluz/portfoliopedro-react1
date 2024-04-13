@@ -1,5 +1,6 @@
 import { BsFiletypeHtml, BsFiletypeCss} from "react-icons/bs";
-import { RiJavascriptLine } from "react-icons/ri";
+import { BsFiletypeJs } from "react-icons/bs";
+import { BsFiletypeJsx } from "react-icons/bs";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
@@ -31,8 +32,11 @@ export default () => {
       <SwiperSlide>
         <BsFiletypeCss />
       </SwiperSlide>
+         <SwiperSlide>
+      <BsFiletypeJs />
+         </SwiperSlide>
       <SwiperSlide>
-        <RiJavascriptLine />
+         <BsFiletypeJsx />
       </SwiperSlide>
 
     </Swiper>

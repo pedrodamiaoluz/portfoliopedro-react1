@@ -6,6 +6,7 @@ export const Container = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 `
 
 export const imagem = styled.img`
@@ -14,11 +15,16 @@ export const imagem = styled.img`
 
 export const ul = styled.ul`
    list-style-type: none;
+   
+   @media (max-width: 959px){
+      display: none;
+   }
 `
 
 export const li = styled.li`
    display: inline-block;
    padding: 20px;
+
 `
 
 export const a = styled.a`
@@ -49,4 +55,8 @@ export const button = styled.a`
    transform: scale(1.10);
    box-shadow: 0 0 8px rgb(57, 183, 214);
 }
+
+@media (max-width: 959px){
+      display: none;
+   }
 `
