@@ -5,10 +5,14 @@ export const Footer = styled.div`
    display : flex;
    justify-content: space-between;
    align-items: center;
+   
+   @media (max-width: 959px){
+       display: flex;
+       flex-direction: column;
+    }
 `
 export const Container = styled.div`
-    background-color: transparent;
-    /*box-shadow: 0 0 40px 10px #e0decb18;*/
+    background-color: red;
     padding: 30px 2rem;
 `
 

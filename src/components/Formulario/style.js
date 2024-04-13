@@ -2,7 +2,7 @@
 import styled from "styled-components"
 
 export const Form = styled.div`
-   
+
 `
 
 export const Formu = styled.form`
@@ -24,6 +24,10 @@ export const Input = styled.input`
     border-radius: 5px;
     font-size: 15px;
     color: #fff;
+
+    @media (max-width: 959px){
+       width: 90%;
+    }
 `
 
 export const Textarea = styled.textarea`
@@ -37,6 +41,10 @@ export const Textarea = styled.textarea`
     resize: none;
     height: 150px;
     color: #fff;
+
+    @media (max-width: 959px){
+       width: 90%;
+    }
 `
 
 export const H1 = styled.h1`

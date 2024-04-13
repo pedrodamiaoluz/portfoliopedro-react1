@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.header`
-    background-color: transparent;
+    background-color:red;
     padding: 20px 2%;
     display: flex;
     justify-content: space-between;

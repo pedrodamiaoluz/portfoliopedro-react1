@@ -8,10 +8,19 @@ export const MeuPortifolio = styled.div`
     text-align: center;
     border-radius: 30px;
 
+.swiper-button-next, .swiper-button-prev{
+  color: #0e9094;
+}
+
     @media (max-width: 959px){
         width: 350px;
+
+        .swiper-button-next, .swiper-button-prev{
+           display: none;
+        }
    }
 `
+
 
 export const H1 = styled.h1`
   font-size: 48px;
@@ -30,7 +39,8 @@ export const Img = styled.img`
    border-radius: 15px;
 
    @media (max-width: 959px){
-    height: 70vh;
+    width: 80%;
+    height: 50vh;
 
  }
 `
