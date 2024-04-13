@@ -12,7 +12,7 @@ export const Footer = styled.div`
     }
 `
 export const Container = styled.div`
-    background-color: red;
+    background-color: transparent;
     padding: 30px 2rem;
 `
 
