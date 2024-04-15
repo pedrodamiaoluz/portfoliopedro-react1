@@ -4,7 +4,7 @@ export default function Formulario(){
     return(
         
         <S.Form>
-             <S.H1>Fala <strong>Comigo</strong></S.H1>
+             <S.H1>Fale <strong>Comigo</strong></S.H1>
               <S.Formu>
                   <S.Input type="text" name="text1" id="" placeholder="Informe seu Nome" required/>
                   <S.Input type="email" name="" id="" placeholder="Informe seu email" required/>
