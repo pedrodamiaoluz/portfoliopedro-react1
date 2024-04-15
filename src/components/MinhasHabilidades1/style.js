@@ -7,6 +7,7 @@ export const Container = styled.div`
      justify-content: space-around;
      justify-items: center;
      align-items: center;
+ 
    
      @media (max-width: 959px){
         display: flex;
@@ -37,6 +38,10 @@ export const iconHab = styled.div`
     color: #0e9094;
     text-align: center;
     border-radius: 30px;
+
+    .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background-color: #0e9094;
+     }
     
 .swiper-pagination{
     display: flex;

@@ -8,9 +8,13 @@ export const Container = styled.div`
     align-items: center;
 
     @media (max-width: 959px){
-      margin-top: 20px;
+      margin: 30% 0;
       display: flex;
       flex-direction: column-reverse;
+   }
+
+   @media (max-width: 480px){
+      margin: 20px 0;
    }
 ` 
 

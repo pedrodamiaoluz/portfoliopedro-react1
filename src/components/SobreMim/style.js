@@ -5,6 +5,15 @@ export const conteudo = styled.div`
     height: 70vh;
     margin: 30px;
     padding: 20px 2%;
+
+    @media (max-width: 959px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        
+     }
 `
 export const Titulo = styled.h2`
     text-align: center;
@@ -15,6 +24,10 @@ export const Titulo = styled.h2`
 
 strong{
     color: #0e9094;
+}
+
+@media (max-width: 480px){
+   margin-top: 50%;
 }
 `
 
