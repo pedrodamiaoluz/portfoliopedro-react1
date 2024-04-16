@@ -1,6 +1,7 @@
 
 import { Images } from "../../assets/Images/imagem";
-import { MenuMobile } from "./MenuMobile/style";
+import MenuMobile from "./MenuMobile/menu";
+
 
 import * as S from "./style";
 
@@ -20,7 +21,7 @@ export default function Header(){
                 </S.ul>
              </nav>
             <S.button href="">Contato</S.button>
-            <MenuMobile />
+            <MenuMobile></MenuMobile>
         </S.Container>
     )
 }
