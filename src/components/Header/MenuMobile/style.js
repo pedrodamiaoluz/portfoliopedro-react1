@@ -46,9 +46,10 @@ display: block;
 transition: .5s;
 `
 
-/*let butmenu = document.getElementById('but-abrir-menu-mob')
-let menumobile = document.getElementById('menu-mobile')
+/*let butmenu = document.getElementById('butabrirmenumob')
+let menumobile = document.getElementById('menumobile')
 let overlay = document.getElementById('overlay-menu-mob')
+
 
 
 butmenu.addEventListener('click', ()=>{

@@ -5,9 +5,9 @@ import * as S from "./style";
 export default function MenuMobile(){
     return(
         <>
-           <S.Menu className="but-abrir-menu-mob"><IoMenu /></S.Menu>
+           <S.Menu className="butabrirmenumob"><IoMenu /></S.Menu>
 
-           <S.MenuMobile className="menu-mobile">
+           <S.MenuMobile className="menumobile">
                <S.ButFechar><BsXLg /></S.ButFechar>
 
                <S.Nav>
