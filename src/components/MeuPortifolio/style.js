@@ -10,6 +10,16 @@ export const MeuPortifolio = styled.div`
 
 .swiper-button-next, .swiper-button-prev{
   color: #0e9094;
+  position: absolute;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background-color: #0e9094;
+     }
+    
+.swiper-pagination{
+    display: flex;
+    justify-content: center;
 }
 
     @media (max-width: 959px){

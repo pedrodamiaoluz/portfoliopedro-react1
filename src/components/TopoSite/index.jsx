@@ -5,7 +5,7 @@ import * as S from "./style";
 export default function TopoSite(){
     return(
         <S.Container>
-           <S.conteudo>
+           <S.conteudo className="texto">
                  <S.h1>PEDRO DAMIÃO</S.h1>
                  <S.p>DESENVOLVEDOR FRONT-END</S.p>
            </S.conteudo>

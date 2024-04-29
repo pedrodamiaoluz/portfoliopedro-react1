@@ -14,7 +14,7 @@ export const Container = styled.div`
    }
 
    @media (max-width: 480px){
-      margin: 20px 0;
+      margin: 1rem 0;
    }
 ` 
 
@@ -28,6 +28,8 @@ export const conteudo = styled.div`
       margin-top: 50px;
       padding: 20px 2%;
    }
+
+
 ` 
 export const h1 = styled.h1`
    text-align: center;
@@ -63,6 +65,4 @@ export const imagempedro = styled.img`
     }
 
 }
-
-
 `

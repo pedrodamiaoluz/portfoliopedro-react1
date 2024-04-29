@@ -2,15 +2,23 @@ import styled from "styled-components"
 
 export const Container = styled.header`
     background-color: transparent;
-    padding: 20px 2%;
+    padding: 20px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+   
+    @media (min-width: 1280px){
+      .butabrirmenumob{
+        display: none;
+      }
+   }
 `
-
 export const imagem = styled.img`
    width: 100px;
+`
+
+export const Nav = styled.nav`
+  
 `
 
 export const ul = styled.ul`

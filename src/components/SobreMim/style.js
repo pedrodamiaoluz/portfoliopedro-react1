@@ -27,7 +27,7 @@ strong{
 }
 
 @media (max-width: 480px){
-   margin-top: 30%;
+   margin-top: 20px;
 }
 `
 
