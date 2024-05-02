@@ -1,0 +1,72 @@
+
+
+@media (max-width: 768px){
+
+    .butabrirmenumob{
+        color: #0e9094;
+        font-size: 40px;    
+    }
+
+    .bottonFechar{
+        color: #0e9094;
+        font-size: 40px;
+        padding: 20px 0 0 20px;
+    }
+
+    .navegetion{
+        display: none;
+    }
+
+    .navegetion.is-open{
+        background-color: #000000;
+        width: 70%; 
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        z-index: 2000;
+        overflow: hidden;
+        display: block;
+        transform: toggleMenu(.4s);
+        
+    }
+
+    .nav_style{
+        /* background-color: red; */
+        font-size: 2rem;
+        margin-top: 50px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .nav_style li a{
+        color:#fff;
+        
+    }
+
+    .nav_style li:hover{
+        background-color: #0e9094;
+    }
+
+    
+
+    /* .overlay-menu-mob{
+        background-color: #000000c3;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        display: auto;
+    } */
+    
+    .button0{
+        display: none;
+    }
+}

@@ -4,38 +4,25 @@ export const Container = styled.header`
     background-color: transparent;
     padding: 20px 8%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
-    @media (min-width: 1280px){
-      .butabrirmenumob{
-        display: none;
-      }
-   }
-`
-export const imagem = styled.img`
+
+
+img{
    width: 100px;
-`
+}
 
-export const Nav = styled.nav`
-  
-`
-
-export const ul = styled.ul`
+ul{
    list-style-type: none;
-   
-   @media (max-width: 959px){
-      display: none;
-   }
-`
+}
 
-export const li = styled.li`
+li{
    display: inline-block;
    padding: 20px;
+}
 
-`
-
-export const a = styled.a`
+a{
    display: inline-block;
    text-decoration: none;
    font-weight: 700;
@@ -46,10 +33,10 @@ export const a = styled.a`
    color: #fff;
    transform: scale(1.03);
 }
-`
+}
 
-export const button = styled.a`
-     background-color: #0e9094;
+.button{
+   background-color: #0e9094;
      padding: 10px 40px;
      color: #000;
      font-weight: 400;
@@ -60,11 +47,10 @@ export const button = styled.a`
      transition: .2s;
 
 &:hover{
+   color: #000;
    transform: scale(1.10);
    box-shadow: 0 0 8px rgb(57, 183, 214);
 }
+}
 
-@media (max-width: 959px){
-      display: none;
-   }
 `
